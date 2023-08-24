@@ -1,0 +1,153 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<footer>
+  <div class="content">
+    <div class="left box">
+      <div class="upper">
+        <div class="topic"><img src="https://media.licdn.com/dms/image/C5612AQHxqGJ2ghE43Q/article-cover_image-shrink_600_2000/0/1649347974860?e=2147483647&v=beta&t=oAq57hGgw1PNR-oo-2ATSj4D2cnC8WndLfyecDsGIhg" alt="" width="30%"></div>
+        <p style="font-size: 10px;">CodingLab is a channel where you can learn HTML,
+        CSS, and also JavaScript along with creative CSS Animations and Effects.</p>
+      </div>
+       <div class="lower" style="display: flex;">
+        <div class="topic"></div>
+        <div class="phone">
+          <button style="border: 2px solid green; border-radius: 10px; width: 100px; height: 110%; background-color: green;"><i class="fa-brands fa-apple" style="font-size: 20px; margin-left: 5%; display: flex;"><p style="font-size: 8px; margin-top: 8%; margin-left: 1%; color: black;">Download on the <span style="font-size: 12px; margin-bottom: 10%; margin-left: 10%; color: black;">Apple</span></p></i></button>
+        </div>
+        <div class="email">
+          <button style="border: 2px solid blue; border-radius: 10px; width: 100px; height: 110%; background-color: blue; margin-left: 50%;"><i class="fa-brands fa-google-play" style="font-size: 20px; margin-left: 5%; display: flex;"><p style="font-size: 8px; margin-top: 8%; margin-left: 1%; color: black;">Download on the <span style="font-size: 12px; margin-bottom: 10%; margin-right: 5%; color: black;">Play-Store</span></p></i></button>
+        </div>
+      </div> 
+    </div>
+    <div class="middle-box">
+      <div class="topic">Quick Link</div>
+      <div><a href="#" style="font-size: 10px;">About Us</a></div>
+      <div><a href="#" style="font-size: 10px;">Teams</a></div>
+      <div><a href="#" style="font-size: 10px;">Services</a></div>
+      <div><a href="#" style="font-size: 10px;">Features</a></div>
+    </div>
+    <div class="middle-box">
+      <div class="topic">Support</div>
+      <div><a href="#" style="font-size: 10px;">Terms & Conditions</a></div>
+      <div><a href="#" style="font-size: 10px;">Privacy Policy</a></div>
+      <div><a href="#" style="font-size: 10px;">FAQs</a></div>
+      <div><a href="#" style="font-size: 10px;">Support Center</a></div>
+    </div>
+    <div class="middle-box">
+      <div class="topic">Company</div>
+      <div><a href="#" style="font-size: 10px;">Careers</a></div>
+      <div><a href="#" style="font-size: 10px;">Updates</a></div>
+      <div><a href="#" style="font-size: 10px;">Job</a></div>
+      <div><a href="#" style="font-size: 10px;">Announce</a></div>
+    </div>
+  </div> 
+  <!-- <div class="bottom">
+    <p>Copyright © 2020 <a href="#">CodingLab</a> All rights reserved</p>
+  </div> -->
+</footer>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #111;
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+
+.middle-box{
+  margin-right: 50px;
+  width: 15%;
+}
+
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #eb2f06;
+}
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #eb2f06;
+}
+footer a{
+  /* transition: all 0.3s ease; */
+}
+footer a:hover{
+  color: #eb2f06;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 10px;
+  }
+}
+
+@media (max-width:950px){
+  footer .content .box{
+     width: 10%; 
+  }
+  .content .right{
+     margin-top: 40px; 
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+</style>
